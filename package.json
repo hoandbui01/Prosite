@@ -1,0 +1,32 @@
+{
+  "name": "prosite",
+  "version": "1.0.0",
+  "description": "Prosite",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongose": "0.0.2-security",
+    "navigo": "^7.1.3",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "parcel-build": "parcel build index.html && cp _redirects ./dist/",
+    "serve": "parcel index.html",
+    "server:watch": "nodemon --watch ./server -e js ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoandbui01/Prosite.git"
+  },
+  "author": "Hoan Bui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoandbui01/Prosite/issues"
+  },
+  "homepage": "https://github.com/hoandbui01/Prosite#readme"
+}

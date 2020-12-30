@@ -4,8 +4,9 @@ export default () => `
 <br>
 <br>
 <br>
+<br>
 <div class="dropdown">
-	<button class="dropbtn">Project Status</button>
+	<button class="dropbtn">View by Status</button>
 	<div class="dropdown-content">
 		<a href="#">New</a>
 		<a href="#">Forecast</a>
@@ -16,6 +17,9 @@ export default () => `
 		<a href="#">Archived</a>
 	</div>
 </div>
+<br>
+<br>
+<br>
 <table class="project-table-list" id="project-table-list">
 	<tr>
 		<th>Customer</th>

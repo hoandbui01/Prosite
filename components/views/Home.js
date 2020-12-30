@@ -6,6 +6,7 @@ export default () => `
     <div class="Revenue" id="Revenue-id">
     <p>Total Revenue: </p>
     <p>Total Expense: </p>
+    <p>Total Profits: </p>
     <p>Total Projects: </p>
     </div>
 

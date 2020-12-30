@@ -3,10 +3,12 @@ export default () => `
 <br>
 <br>
 <br>
-<br>
 <div class="dropdown">
-	<button action="" class="dropbtn">+ Contact</button>
+	<a href="/ContactForm" data-navigo class="dropbtn"> <i class="fas fa-user-plus"></i></a>
 </div>
+<br>
+<br>
+<br>
 <table class="project-table-list" id="project-table-list">
 	<tr>
 		<th>First Name</th>
@@ -34,4 +36,4 @@ export default () => `
 	</tr>
 </table>
 
-`;
+`

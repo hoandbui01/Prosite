@@ -141,7 +141,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n\n    <div class=\"home-overview\" id=\"home-overview\">\n    <h2>Project Overview</h2>\n    </div>\n    <div class=\"Revenue\" id=\"Revenue-id\">\n    <p>Total Revenue: </p>\n    <p>Total Expense: </p>\n    <p>Total Projects: </p>\n    </div>\n\n";
+  return "\n\n    <div class=\"home-overview\" id=\"home-overview\">\n    <h2>Project Overview</h2>\n    </div>\n    <div class=\"Revenue\" id=\"Revenue-id\">\n    <p>Total Revenue: </p>\n    <p>Total Expense: </p>\n    <p>Total Profits: </p>\n    <p>Total Projects: </p>\n    </div>\n\n";
 };
 
 exports.default = _default;
@@ -154,7 +154,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<h2>Projects List Selection</h2>\n<br>\n<br>\n<br>\n<br>\n<div class=\"dropdown\">\n\t<button class=\"dropbtn\">Project Status</button>\n\t<div class=\"dropdown-content\">\n\t\t<a href=\"#\">New</a>\n\t\t<a href=\"#\">Forecast</a>\n\t\t<a href=\"#\">Start</a>\n\t\t<a href=\"#\">WIP</a>\n\t\t<a href=\"#\">Completed</a>\n\t\t<a href=\"#\">Issue</a>\n\t\t<a href=\"#\">Archived</a>\n\t</div>\n</div>\n<table class=\"project-table-list\" id=\"project-table-list\">\n\t<tr>\n\t\t<th>Customer</th>\n\t\t<th>Project Name</th>\n\t\t<th>Site Code</th>\n\t\t<th>Status</th>\n\t\t<th>Start</th>\n\t\t<th>Complete</th>\n\t</tr>\n\t<tr>\n\t\t<td>AT&T</td>\n\t\t<td>NSB</td>\n\t\t<td>NV1983</td>\n\t\t<td>WIP</td>\n\t\t<td>2020-12-30</td>\n\t\t<td>2021-1-20</td>\n\t</tr>\n\t<tr>\n\t\t<td>T-Mobile</td>\n\t\t<td>Anchor</td>\n\t\t<td>9NV2391C</td>\n\t\t<td>Start</td>\n\t\t<td>2020-12-20</td>\n\t\t<td>2021-1-30</td>\n\t</tr>\n\t<tr>\n\t\t<td>US Cellular</td>\n\t\t<td>Wave 2</td>\n\t\t<td>731892</td>\n\t\t<td>Start</td>\n\t\t<td>2020-12-21</td>\n\t\t<td>2021-1-15</td>\n\t</tr>\n</table>\n\n";
+  return "\n<h2>Projects List Selection</h2>\n<br>\n<br>\n<br>\n<br>\n<br>\n<div class=\"dropdown\">\n\t<button class=\"dropbtn\">View by Status</button>\n\t<div class=\"dropdown-content\">\n\t\t<a href=\"#\">New</a>\n\t\t<a href=\"#\">Forecast</a>\n\t\t<a href=\"#\">Start</a>\n\t\t<a href=\"#\">WIP</a>\n\t\t<a href=\"#\">Completed</a>\n\t\t<a href=\"#\">Issue</a>\n\t\t<a href=\"#\">Archived</a>\n\t</div>\n</div>\n<br>\n<br>\n<br>\n<table class=\"project-table-list\" id=\"project-table-list\">\n\t<tr>\n\t\t<th>Customer</th>\n\t\t<th>Project Name</th>\n\t\t<th>Site Code</th>\n\t\t<th>Status</th>\n\t\t<th>Start</th>\n\t\t<th>Complete</th>\n\t</tr>\n\t<tr>\n\t\t<td>AT&T</td>\n\t\t<td>NSB</td>\n\t\t<td>NV1983</td>\n\t\t<td>WIP</td>\n\t\t<td>2020-12-30</td>\n\t\t<td>2021-1-20</td>\n\t</tr>\n\t<tr>\n\t\t<td>T-Mobile</td>\n\t\t<td>Anchor</td>\n\t\t<td>9NV2391C</td>\n\t\t<td>Start</td>\n\t\t<td>2020-12-20</td>\n\t\t<td>2021-1-30</td>\n\t</tr>\n\t<tr>\n\t\t<td>US Cellular</td>\n\t\t<td>Wave 2</td>\n\t\t<td>731892</td>\n\t\t<td>Start</td>\n\t\t<td>2020-12-21</td>\n\t\t<td>2021-1-15</td>\n\t</tr>\n</table>\n\n";
 };
 
 exports.default = _default;
@@ -167,7 +167,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<h2>Project Detail</h2>\n<br>\n<br>\n<br>\n<br>\n<div class=\"dropdown\">\n\t<button class=\"dropbtn\">Project Detail Option</button>\n\t<div class=\"dropdown-content\">\n\t\t<a href=\"#\">New</a>\n\t\t<a href=\"#\">Edit</a>\n\t\t<a href=\"#\">Delete</a>\n\t</div>\n</div>\n<table class=\"project-table-list\" id=\"project-table-list\">\n\t<tr>\n\t\t<th>Customer</th>\n\t\t<th>Project Name</th>\n\t\t<th>Site Code</th>\n\t\t<th>Status</th>\n\t\t<th>Start</th>\n\t\t<th>Complete</th>\n\t</tr>\n\t<tr>\n\t\t<td>AT&T</td>\n\t\t<td>NSB</td>\n\t\t<td>NV1983</td>\n\t\t<td>WIP</td>\n\t\t<td>2020-12-30</td>\n\t\t<td>2021-1-20</td>\n\t</tr>\n\t<tr>\n\t\t<td>T-Mobile</td>\n\t\t<td>Anchor</td>\n\t\t<td>9NV2391C</td>\n\t\t<td>Start</td>\n\t\t<td>2020-12-20</td>\n\t\t<td>2021-1-30</td>\n\t</tr>\n\t<tr>\n\t\t<td>US Cellular</td>\n\t\t<td>Wave 2</td>\n\t\t<td>731892</td>\n\t\t<td>Start</td>\n\t\t<td>2020-12-21</td>\n\t\t<td>2021-1-15</td>\n\t</tr>\n</table>\n";
+  return "\n<h2>Project Detail</h2>\n<br>\n<br>\n<br>\n<br>\n<div class=\"dropdown\">\n\t<button class=\"dropbtn\">Project Option</button>\n\t<div class=\"dropdown-content\">\n\t\t<a href=\"#\">New</a>\n\t\t<a href=\"#\">Edit</a>\n\t\t<a href=\"#\">Delete</a>\n\t</div>\n</div>\n<br>\n<br>\n<br>\n\n<div class=\"project-table-detail\">\n\t<table class=\"project-detail\" id=\"project-detail\">\n\t\t<div class=\"bold\">\n\t\t\t<tr>\n\t\t\t\t<th>Customer</th>\n\t\t\t\t<th>Project Name</th>\n\t\t\t\t<th>Site Code</th>\n\t\t\t\t<th>Project Status</th>\n\t\t\t</tr>\n\t\t</div>\n\t\t<tr>\n\t\t\t<td>AT&T</td>\n\t\t\t<td>NSB</td>\n\t\t\t<td>672481</td>\n\t\t\t<td>Wave 2 Modernization</td>\n\t\t</tr>\n\t</table>\n</div>\n\n<div>\n\t<table>\n\t<caption>Project Info</caption>\n\t\t<tr>\n\t\t\t<td></td>\n\t\t\t<th scope=\"col\">Field</th>\n\t\t</tr>\n\n\t\t<tr>\n\t\t\t<th scope=\"row\">Site Name</th>\n\t\t\t<td>Uphill Mountain</td>\n\t\t</tr>\n\n\t\t<tr>\n\t\t\t<th scope=\"row\">Lat & Long</th>\n\t\t\t<td>24.348853, -89.248842</td>\n\t\t</tr>\n\n\t\t<tr>\n\t\t\t<th scope=\"row\">Address</th>\n\t\t\t<td>2874 Clover Hill Rd, Nashville, TN 37211</td>\n\t\t</tr>\n\n\t\t<tr>\n\t\t\t<th scope=\"row\">Structural Type</th>\n\t\t\t<td>Monopole</td>\n\t\t</tr>\n\n\t\t<tr>\n\t\t<th scope=\"row\">Start</th>\n\t\t<td>12/30/2020</td>\n\t\t</tr>\n\n\t\t<tr>\n\t\t<th scope=\"row\">Complete</th>\n\t\t<td>1/26/2021</td>\n\t\t</tr>\n\t</table>\n</div>\n\n";
 };
 
 exports.default = _default;
@@ -180,7 +180,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n\n<h2>Project Tasks</h2>\n<br><br><br><br>\n<form id=\"form\">\n    <input type=\"text\" class=\"input\" id=\"input\" placeholder=\"Enter your task\" autocomplete=\"off\">\n\n    <ul class=\"task\" id=\"task\"></ul>\n</form>\n<small>Left click to toggle completed. <br> Right click to delete task</small>\n\n\n";
+  return "\n\n<h2>Project Tasks</h2>\n<br>\n<br>\n<br>\n\n<div class=\"project-table-detail\">\n\t<table class=\"project-detail\" id=\"project-detail\">\n\t\t<div class=\"bold\">\n\t\t\t<tr>\n\t\t\t\t<th>Customer</th>\n\t\t\t\t<th>Project Name</th>\n\t\t\t\t<th>Site Code</th>\n\t\t\t\t<th>Project Status</th>\n\t\t\t</tr>\n\t\t</div>\n\t\t<tr>\n\t\t\t<td>AT&T</td>\n\t\t\t<td>NSB</td>\n\t\t\t<td>672481</td>\n\t\t\t<td>Wave 2 Modernization</td>\n\t\t</tr>\n\t</table>\n</div>\n<br>\n<br>\n<br>\n<form id=\"form\">\n    <input type=\"text\" class=\"input\" id=\"input\" placeholder=\"Enter your task\" autocomplete=\"on\">\n\n    <ul class=\"task\" id=\"task\"></ul>\n\n</form>\n\n<small>Left click to toggle completed. <br> Right click to delete task</small>\n<ul>\n    <li text-decoration:line-through; list-style-type:none>\n    Installation Asset Serial Number Photos\n    </li>\n    <li>\n    Decom Asset Serail Number Photos\n    </li>\n    <li>\n    Antennas and Radio Prepwork\n    </li>\n    <li>\n    Antennas Installation\n    </li>\n</ul>\n\n\n";
 };
 
 exports.default = _default;
@@ -193,7 +193,72 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<h2>Contacts</h2>\n<br>\n<br>\n<br>\n<br>\n<div class=\"dropdown\">\n\t<button action=\"\" class=\"dropbtn\">+ Contact</button>\n</div>\n<table class=\"project-table-list\" id=\"project-table-list\">\n\t<tr>\n\t\t<th>First Name</th>\n\t\t<th>Last Name</th>\n\t\t<th>Email</th>\n\t\t<th>Phone</th>\n\t</tr>\n\t<tr>\n\t\t<td>John</td>\n\t\t<td>Doe</td>\n\t\t<td>john-doe@gmail.com</td>\n\t\t<td>615-872-9233</td>\n\t</tr>\n\t<tr>\n        <td>Janet</td>\n        <td>Kelly</td>\n        <td>jannetk@yahoo.com</td>\n        <td>615-911-0911</td>\n\t</tr>\n\t<tr>\n        <td>Joe</td>\n        <td>Henry</td>\n        <td>henry.joe@services-llc.com</td>\n        <td>615-811-9911</td>\n\t</tr>\n</table>\n\n";
+  return "\n<h2>Contacts</h2>\n<br>\n<br>\n<br>\n<div class=\"dropdown\">\n\t<a href=\"/ContactForm\" data-navigo class=\"dropbtn\"> <i class=\"fas fa-user-plus\"></i></a>\n</div>\n<br>\n<br>\n<br>\n<table class=\"project-table-list\" id=\"project-table-list\">\n\t<tr>\n\t\t<th>First Name</th>\n\t\t<th>Last Name</th>\n\t\t<th>Email</th>\n\t\t<th>Phone</th>\n\t</tr>\n\t<tr>\n\t\t<td>John</td>\n\t\t<td>Doe</td>\n\t\t<td>john-doe@gmail.com</td>\n\t\t<td>615-872-9233</td>\n\t</tr>\n\t<tr>\n        <td>Janet</td>\n        <td>Kelly</td>\n        <td>jannetk@yahoo.com</td>\n        <td>615-911-0911</td>\n\t</tr>\n\t<tr>\n        <td>Joe</td>\n        <td>Henry</td>\n        <td>henry.joe@services-llc.com</td>\n        <td>615-811-9911</td>\n\t</tr>\n</table>\n\n";
+};
+
+exports.default = _default;
+},{}],"components/views/ContactForm.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _default = function _default() {
+  return "\n<h2>New Contact</h2>\nPlease enter your contact so we can notify you via email and/or SMS.\n<br>\n<br>\n<br>\n<div>\n<form id=\"register\" method=\"POST\" action=\"\">\n<label for=\"fname\">First Name</label>\n<input type=\"text\" id=\"fname\" name=\"firstname\" placeholder=\"Your name..\">\n<br>\n<br>\n\n<label for=\"lname\">Last Name</label>\n<input type=\"text\" id=\"lname\" name=\"lastname\" placeholder=\"Your last name..\">\n<br>\n<br>\n\n\n<label for=\"email\">Email</label>\n<input type=\"email\" id=\"email\" name=\"email\" placeholder=\"Your email..\">\n<br>\n<br>\n\n<label for=\"phone\">Phone</label>\n<input type=\"tel\" id=\"number\" name=\"number\" placeholder=\"Your phone number..\">\n\n<br>\n<br>\n<label for=\"notification\">Email/SMS Notification</label>\n<input type=\"checkbox\" id=\"number\" name=\"number\" placeholder=\"Notification\">\n<br>\n<br>\n\n<input type=\"submit\" value=\"Add New Contact\" class=\"btn\">\n<input type=\"submit\" value=\"Update Contact\" class=\"btn\">\n\n</form>\n</div>\n";
+};
+
+exports.default = _default;
+},{}],"components/views/ProjectForm.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _default = function _default() {
+  return "\n<h2>Add or Update New Project</h2>\n<div class=\"row\">\n    <div class=\"col-75\">\n        <div class=\"container\">\n        <form action=\"/action_page.php\">\n\n            <div class=\"row\">\n            <div class=\"col-50\">\n                <h3>Site Info</h3>\n                <label for=\"scode\"><i class=\"fa fa-user\"></i> Site Code</label>\n                <input type=\"text\" id=\"sname\" name=\"sname\" placeholder=\"Site Code\">\n\n                <label for=\"sname\"><i class=\"fa fa-user\"></i> Site Name</label>\n                <input type=\"text\" id=\"sname\" name=\"sname\" placeholder=\"Site Name\">\n\n                <label for=\"slatlong\"><i class=\"fas fa-map-marked\"></i> Lat & Long</label>\n                \n                <input type=\"slat\" id=\"slat\" name=\"slat\" placeholder=\"Latitude\">\n\n                <input type=\"slong\" id=\"slong\" name=\"slong\" placeholder=\"Longitude\">\n                \n                <br><br>\n                <label for=\"slatlong\"><i class=\"fas fa-broadcast-tower\"></i> Structural Type</label>\n\n                <input type=\"text\" id=\"slat\" name=\"slat\" placeholder=\"Structural Type\">\n\n                <label for=\"adr\"><i class=\"fa fa-address-card-o\"></i> Address</label>\n\n                <input type=\"text\" id=\"adr\" name=\"address\" placeholder=\"542 W. 15th Street\">\n                <label for=\"city\"><i class=\"fa fa-institution\"></i> City</label>\n                <input type=\"text\" id=\"city\" name=\"city\" placeholder=\"New York\">\n\n                <div class=\"row\">\n                <div class=\"col-50\">\n                    <label for=\"state\">State</label>\n                    <input type=\"text\" id=\"state\" name=\"state\" placeholder=\"NY\">\n                </div>\n                <div class=\"col-50\">\n                    <label for=\"zip\">Zip</label>\n                    <input type=\"text\" id=\"zip\" name=\"zip\" placeholder=\"10001\">\n                </div>\n                </div>\n            </div>\n\n            <div class=\"col-50\">\n                <h3>Project Info</h3>\n                <label for=\"fname\">Project Name</label>\n                <input type=\"text\" id=\"cname\" name=\"projectname\" placeholder=\"Project Name\">\n\n                <label for=\"cname\">Customer Name</label>\n                <input type=\"text\" id=\"cname\" name=\"cardname\" placeholder=\"Customer Name\">\n\n                <label for=\"status\">Status</label>\n                <input type=\"text\" id=\"ccnum\" name=\"cardnumber\" placeholder=\"New, Forecast, Start, Work In Progress, Complete, Issue, or Archived\">\n\n\n                <div class=\"row\">\n                <div class=\"col-50\">\n                    <label for=\"start\">Start</label>\n                    <input type=\"date\" id=\"expyear\" name=\"expyear\" placeholder=\"2018\">\n                </div>\n\n                <div class=\"col-50\">\n                    <label for=\"complete\">Complete</label>\n                    <input type=\"date\" id=\"expyear\" name=\"expyear\" placeholder=\"2018\">\n                </div>\n\n                <br>\n                <br>\n\n                <div class=\"col-50\">\n                    <label for=\"note\">Note</label>\n                    <input type=\"text\" id=\"note\" name=\"note\" placeholder=\"Enter any detail note\">\n                </div>\n                </div>\n            </div>\n\n            </div>\n            <label>\n            <input type=\"checkbox\" checked=\"checked\" name=\"enotification\"> Email and SMS Project notification\n            </label>\n            <input type=\"submit\" value=\"Create New Project\" class=\"btn\">\n            <input type=\"submit\" value=\"Update Project\" class=\"btn\">\n            </form>\n            </div>\n    </div>\n\n\n</div>\n";
+};
+
+exports.default = _default;
+},{}],"components/views/CustomerForm.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _default = function _default() {
+  return "\n<h2>New Customer</h2>\nPlease enter your company and contact so we can notify you via email and/or SMS for all project status.\n<br>\n<br>\n<br>\n<div>\n<form id=\"register\" method=\"POST\" action=\"\">\n<label for=\"customer\">Customer Name</label>\n<input type=\"text\" id=\"fname\" name=\"customer\" placeholder=\"Customer Name\">\n\n<label for=\"customer-contact\">Customer Contact</label>\n<input type=\"text\" id=\"customercontact\" name=\"customercontact\" placeholder=\"Customer Contact\">\n\n\n<input type=\"submit\" value=\"Add New Customer\" class=\"btn\">\n<input type=\"submit\" value=\"Update New Customer\" class=\"btn\">\n</form>\n</div>\n";
+};
+
+exports.default = _default;
+},{}],"components/views/LoginForm.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _default = function _default() {
+  return "\n<div class=\"lform\">\n      <form id=\"lform\" class=\"lform\">\n        <h2>Log in</h2>\n        <div class=\"form-control\">\n          <label for=\"email\">Email</label>\n          <input type=\"text\" id=\"email\" placeholder=\"Enter email\" />\n          <small>Error message</small>\n        </div>\n        <div class=\"form-control\">\n          <label for=\"password\">Password</label>\n          <input type=\"password\" id=\"password\" placeholder=\"Enter password\" />\n          <small>Error message</small>\n        </div>\n      </form>\n    </div>\n";
+};
+
+exports.default = _default;
+},{}],"components/views/RegisterForm.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _default = function _default() {
+  return "\n<div class=\"container\">\n    <form id=\"form\" class=\"form\">\n    <h2>Register With Us</h2>\n    <div class=\"form-control\">\n        <label for=\"email\">Email</label>\n        <input type=\"text\" id=\"email\" placeholder=\"Enter email\" />\n        <small>Error message</small>\n    </div>\n    <div class=\"form-control\">\n        <label for=\"password\">Password</label>\n        <input type=\"password\" id=\"password\" placeholder=\"Enter password\" />\n        <small>Error message</small>\n    </div>\n    <div class=\"form-control\">\n        <label for=\"password2\">Confirm Password</label>\n        <input\n        type=\"password\"\n        id=\"password2\"\n        placeholder=\"Enter password again\"\n        />\n        <small>Error message</small>\n    </div>\n    <button type=\"submit\">Submit</button>\n    </form>\n</div>\n";
 };
 
 exports.default = _default;
@@ -233,6 +298,36 @@ Object.defineProperty(exports, "Contact", {
     return _Contact.default;
   }
 });
+Object.defineProperty(exports, "ContactForm", {
+  enumerable: true,
+  get: function () {
+    return _ContactForm.default;
+  }
+});
+Object.defineProperty(exports, "ProjectForm", {
+  enumerable: true,
+  get: function () {
+    return _ProjectForm.default;
+  }
+});
+Object.defineProperty(exports, "CustomerForm", {
+  enumerable: true,
+  get: function () {
+    return _CustomerForm.default;
+  }
+});
+Object.defineProperty(exports, "LoginForm", {
+  enumerable: true,
+  get: function () {
+    return _LoginForm.default;
+  }
+});
+Object.defineProperty(exports, "RegisterForm", {
+  enumerable: true,
+  get: function () {
+    return _RegisterForm.default;
+  }
+});
 
 var _Home = _interopRequireDefault(require("./Home"));
 
@@ -244,8 +339,18 @@ var _ProjectTask = _interopRequireDefault(require("./ProjectTask"));
 
 var _Contact = _interopRequireDefault(require("./Contact"));
 
+var _ContactForm = _interopRequireDefault(require("./ContactForm"));
+
+var _ProjectForm = _interopRequireDefault(require("./ProjectForm"));
+
+var _CustomerForm = _interopRequireDefault(require("./CustomerForm"));
+
+var _LoginForm = _interopRequireDefault(require("./LoginForm"));
+
+var _RegisterForm = _interopRequireDefault(require("./RegisterForm"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./Home":"components/views/Home.js","./ProjectList":"components/views/ProjectList.js","./ProjectDetail":"components/views/ProjectDetail.js","./ProjectTask":"components/views/ProjectTask.js","./Contact":"components/views/Contact.js"}],"components/Main.js":[function(require,module,exports) {
+},{"./Home":"components/views/Home.js","./ProjectList":"components/views/ProjectList.js","./ProjectDetail":"components/views/ProjectDetail.js","./ProjectTask":"components/views/ProjectTask.js","./Contact":"components/views/Contact.js","./ContactForm":"components/views/ContactForm.js","./ProjectForm":"components/views/ProjectForm.js","./CustomerForm":"components/views/CustomerForm.js","./LoginForm":"components/views/LoginForm.js","./RegisterForm":"components/views/RegisterForm.js"}],"components/Main.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -375,6 +480,21 @@ var _default = [{
 }, {
   title: "Contact",
   text: "Contact"
+}, {
+  title: "ContactForm",
+  text: ""
+}, {
+  title: "ProjectForm",
+  text: "Project Form"
+}, {
+  title: "CustomerForm",
+  text: "Customer Form"
+}, {
+  title: "LoginForm",
+  text: "Login Form"
+}, {
+  title: "RegisterForm",
+  text: "Register Form"
 }];
 exports.default = _default;
 },{}],"store/Contact.js":[function(require,module,exports) {
@@ -386,6 +506,61 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _default = {
   view: "Contact"
+};
+exports.default = _default;
+},{}],"store/ContactForm.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  view: "ContactForm"
+};
+exports.default = _default;
+},{}],"store/ProjectForm.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  view: "ProjectForm"
+};
+exports.default = _default;
+},{}],"store/CustomerForm.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  view: "CustomerForm"
+};
+exports.default = _default;
+},{}],"store/LoginForm.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  view: "LoginForm"
+};
+exports.default = _default;
+},{}],"store/RegisterForm.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  view: "RegisterForm"
 };
 exports.default = _default;
 },{}],"store/index.js":[function(require,module,exports) {
@@ -430,6 +605,36 @@ Object.defineProperty(exports, "Contact", {
     return _Contact.default;
   }
 });
+Object.defineProperty(exports, "ContactForm", {
+  enumerable: true,
+  get: function () {
+    return _ContactForm.default;
+  }
+});
+Object.defineProperty(exports, "ProjectForm", {
+  enumerable: true,
+  get: function () {
+    return _ProjectForm.default;
+  }
+});
+Object.defineProperty(exports, "CustomerForm", {
+  enumerable: true,
+  get: function () {
+    return _CustomerForm.default;
+  }
+});
+Object.defineProperty(exports, "LoginForm", {
+  enumerable: true,
+  get: function () {
+    return _LoginForm.default;
+  }
+});
+Object.defineProperty(exports, "RegisterForm", {
+  enumerable: true,
+  get: function () {
+    return _RegisterForm.default;
+  }
+});
 
 var _Home = _interopRequireDefault(require("./Home"));
 
@@ -443,8 +648,18 @@ var _Links = _interopRequireDefault(require("./Links"));
 
 var _Contact = _interopRequireDefault(require("./Contact"));
 
+var _ContactForm = _interopRequireDefault(require("./ContactForm"));
+
+var _ProjectForm = _interopRequireDefault(require("./ProjectForm"));
+
+var _CustomerForm = _interopRequireDefault(require("./CustomerForm"));
+
+var _LoginForm = _interopRequireDefault(require("./LoginForm"));
+
+var _RegisterForm = _interopRequireDefault(require("./RegisterForm"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./Home":"store/Home.js","./ProjectList":"store/ProjectList.js","./ProjectDetail":"store/ProjectDetail.js","./ProjectTask":"store/ProjectTask.js","./Links":"store/Links.js","./Contact":"store/Contact.js"}],"node_modules/navigo/lib/navigo.min.js":[function(require,module,exports) {
+},{"./Home":"store/Home.js","./ProjectList":"store/ProjectList.js","./ProjectDetail":"store/ProjectDetail.js","./ProjectTask":"store/ProjectTask.js","./Links":"store/Links.js","./Contact":"store/Contact.js","./ContactForm":"store/ContactForm.js","./ProjectForm":"store/ProjectForm.js","./CustomerForm":"store/CustomerForm.js","./LoginForm":"store/LoginForm.js","./RegisterForm":"store/RegisterForm.js"}],"node_modules/navigo/lib/navigo.min.js":[function(require,module,exports) {
 var define;
 !function(e,t){"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):e.Navigo=t()}(this,function(){"use strict";var e="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function t(){return!("undefined"==typeof window||!window.history||!window.history.pushState)}function n(e,n,o){"undefined"!=typeof console&&console.warn&&console.warn("Navigo router library will have soon a major upgrade to version 8.0.0. If you don't have time for such migration please stick with the latest 7.1.2 version. To avoid seeing this message set a strict 7.1.2 in your package.json file."),this.root=null,this._routes=[],this._useHash=n,this._hash=void 0===o?"#":o,this._paused=!1,this._destroyed=!1,this._lastRouteResolved=null,this._notFoundHandler=null,this._defaultHandler=null,this._usePushState=!n&&t(),this._onLocationChange=this._onLocationChange.bind(this),this._genericHooks=null,this._historyAPIUpdateMethod="pushState",e?this.root=n?e.replace(/\/$/,"/"+this._hash):e.replace(/\/$/,""):n&&(this.root=this._cLoc().split(this._hash)[0].replace(/\/$/,"/"+this._hash)),this._listen(),this.updatePageLinks()}function o(e){return e instanceof RegExp?e:e.replace(/\/+$/,"").replace(/^\/+/,"^/")}function i(e){return e.replace(/\/$/,"").split("/").length}function s(e,t){return i(t)-i(e)}function r(e,t){return function(e){return(arguments.length>1&&void 0!==arguments[1]?arguments[1]:[]).map(function(t){var i=function(e){var t=[];return{regexp:e instanceof RegExp?e:new RegExp(e.replace(n.PARAMETER_REGEXP,function(e,o,i){return t.push(i),n.REPLACE_VARIABLE_REGEXP}).replace(n.WILDCARD_REGEXP,n.REPLACE_WILDCARD)+n.FOLLOWED_BY_SLASH_REGEXP,n.MATCH_REGEXP_FLAGS),paramNames:t}}(o(t.route)),s=i.regexp,r=i.paramNames,a=e.replace(/^\/+/,"/").match(s),h=function(e,t){return 0===t.length?null:e?e.slice(1,e.length).reduce(function(e,n,o){return null===e&&(e={}),e[t[o]]=decodeURIComponent(n),e},null):null}(a,r);return!!a&&{match:a,route:t,params:h}}).filter(function(e){return e})}(e,t)[0]||!1}function a(e,t){var n=t.map(function(t){return""===t.route||"*"===t.route?e:e.split(new RegExp(t.route+"($|/)"))[0]}),i=o(e);return n.length>1?n.reduce(function(e,t){return e.length>t.length&&(e=t),e},n[0]):1===n.length?n[0]:i}function h(e,n,o){var i,s=function(e){return e.split(/\?(.*)?$/)[0]};return void 0===o&&(o="#"),t()&&!n?s(e).split(o)[0]:(i=e.split(o)).length>1?s(i[1]):s(i[0])}function u(t,n,o){if(n&&"object"===(void 0===n?"undefined":e(n))){if(n.before)return void n.before(function(){(!(arguments.length>0&&void 0!==arguments[0])||arguments[0])&&(t(),n.after&&n.after(o))},o);if(n.after)return t(),void(n.after&&n.after(o))}t()}return n.prototype={helpers:{match:r,root:a,clean:o,getOnlyURL:h},navigate:function(e,t){var n;return e=e||"",this._usePushState?(n=(n=(t?"":this._getRoot()+"/")+e.replace(/^\/+/,"/")).replace(/([^:])(\/{2,})/g,"$1/"),history[this._historyAPIUpdateMethod]({},"",n),this.resolve()):"undefined"!=typeof window&&(e=e.replace(new RegExp("^"+this._hash),""),window.location.href=window.location.href.replace(/#$/,"").replace(new RegExp(this._hash+".*$"),"")+this._hash+e),this},on:function(){for(var t=this,n=arguments.length,o=Array(n),i=0;i<n;i++)o[i]=arguments[i];if("function"==typeof o[0])this._defaultHandler={handler:o[0],hooks:o[1]};else if(o.length>=2)if("/"===o[0]){var r=o[1];"object"===e(o[1])&&(r=o[1].uses),this._defaultHandler={handler:r,hooks:o[2]}}else this._add(o[0],o[1],o[2]);else"object"===e(o[0])&&Object.keys(o[0]).sort(s).forEach(function(e){t.on(e,o[0][e])});return this},off:function(e){return null!==this._defaultHandler&&e===this._defaultHandler.handler?this._defaultHandler=null:null!==this._notFoundHandler&&e===this._notFoundHandler.handler&&(this._notFoundHandler=null),this._routes=this._routes.reduce(function(t,n){return n.handler!==e&&t.push(n),t},[]),this},notFound:function(e,t){return this._notFoundHandler={handler:e,hooks:t},this},resolve:function(e){var n,o,i=this,s=(e||this._cLoc()).replace(this._getRoot(),"");this._useHash&&(s=s.replace(new RegExp("^/"+this._hash),"/"));var a=function(e){return e.split(/\?(.*)?$/).slice(1).join("")}(e||this._cLoc()),l=h(s,this._useHash,this._hash);return!this._paused&&(this._lastRouteResolved&&l===this._lastRouteResolved.url&&a===this._lastRouteResolved.query?(this._lastRouteResolved.hooks&&this._lastRouteResolved.hooks.already&&this._lastRouteResolved.hooks.already(this._lastRouteResolved.params),!1):(o=r(l,this._routes))?(this._callLeave(),this._lastRouteResolved={url:l,query:a,hooks:o.route.hooks,params:o.params,name:o.route.name},n=o.route.handler,u(function(){u(function(){o.route.route instanceof RegExp?n.apply(void 0,o.match.slice(1,o.match.length)):n(o.params,a)},o.route.hooks,o.params,i._genericHooks)},this._genericHooks,o.params),o):this._defaultHandler&&(""===l||"/"===l||l===this._hash||function(e,n,o){if(t()&&!n)return!1;if(!e.match(o))return!1;var i=e.split(o);return i.length<2||""===i[1]}(l,this._useHash,this._hash))?(u(function(){u(function(){i._callLeave(),i._lastRouteResolved={url:l,query:a,hooks:i._defaultHandler.hooks},i._defaultHandler.handler(a)},i._defaultHandler.hooks)},this._genericHooks),!0):(this._notFoundHandler&&u(function(){u(function(){i._callLeave(),i._lastRouteResolved={url:l,query:a,hooks:i._notFoundHandler.hooks},i._notFoundHandler.handler(a)},i._notFoundHandler.hooks)},this._genericHooks),!1))},destroy:function(){this._routes=[],this._destroyed=!0,this._lastRouteResolved=null,this._genericHooks=null,clearTimeout(this._listeningInterval),"undefined"!=typeof window&&(window.removeEventListener("popstate",this._onLocationChange),window.removeEventListener("hashchange",this._onLocationChange))},updatePageLinks:function(){var e=this;"undefined"!=typeof document&&this._findLinks().forEach(function(t){t.hasListenerAttached||(t.addEventListener("click",function(n){if((n.ctrlKey||n.metaKey)&&"a"==n.target.tagName.toLowerCase())return!1;var o=e.getLinkPath(t);e._destroyed||(n.preventDefault(),e.navigate(o.replace(/\/+$/,"").replace(/^\/+/,"/")))}),t.hasListenerAttached=!0)})},generate:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},n=this._routes.reduce(function(n,o){var i;if(o.name===e)for(i in n=o.route,t)n=n.toString().replace(":"+i,t[i]);return n},"");return this._useHash?this._hash+n:n},link:function(e){return this._getRoot()+e},pause:function(){var e=!(arguments.length>0&&void 0!==arguments[0])||arguments[0];this._paused=e,this._historyAPIUpdateMethod=e?"replaceState":"pushState"},resume:function(){this.pause(!1)},historyAPIUpdateMethod:function(e){return void 0===e?this._historyAPIUpdateMethod:(this._historyAPIUpdateMethod=e,e)},disableIfAPINotAvailable:function(){t()||this.destroy()},lastRouteResolved:function(){return this._lastRouteResolved},getLinkPath:function(e){return e.getAttribute("href")},hooks:function(e){this._genericHooks=e},_add:function(t){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null,o=arguments.length>2&&void 0!==arguments[2]?arguments[2]:null;return"string"==typeof t&&(t=encodeURI(t)),this._routes.push("object"===(void 0===n?"undefined":e(n))?{route:t,handler:n.uses,name:n.as,hooks:o||n.hooks}:{route:t,handler:n,hooks:o}),this._add},_getRoot:function(){return null!==this.root?this.root:(this.root=a(this._cLoc().split("?")[0],this._routes),this.root)},_listen:function(){var e=this;if(this._usePushState)window.addEventListener("popstate",this._onLocationChange);else if("undefined"!=typeof window&&"onhashchange"in window)window.addEventListener("hashchange",this._onLocationChange);else{var t=this._cLoc(),n=void 0,o=void 0;(o=function(){n=e._cLoc(),t!==n&&(t=n,e.resolve()),e._listeningInterval=setTimeout(o,200)})()}},_cLoc:function(){return"undefined"!=typeof window?void 0!==window.__NAVIGO_WINDOW_LOCATION_MOCK__?window.__NAVIGO_WINDOW_LOCATION_MOCK__:o(window.location.href):""},_findLinks:function(){return[].slice.call(document.querySelectorAll("[data-navigo]"))},_onLocationChange:function(){this.resolve()},_callLeave:function(){var e=this._lastRouteResolved;e&&e.hooks&&e.hooks.leave&&e.hooks.leave(e.params)}},n.PARAMETER_REGEXP=/([:*])(\w+)/g,n.WILDCARD_REGEXP=/\*/g,n.REPLACE_VARIABLE_REGEXP="([^/]+)",n.REPLACE_WILDCARD="(?:.*)",n.FOLLOWED_BY_SLASH_REGEXP="(?:/$|$)",n.MATCH_REGEXP_FLAGS="",n});
 
@@ -19717,7 +19932,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56698" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64731" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

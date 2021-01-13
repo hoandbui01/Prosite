@@ -34,19 +34,8 @@ export default () => `
 </form>
 
 <small>Left click to toggle completed. <br> Right click to delete task</small>
-<ul>
-    <li text-decoration:line-through; list-style-type:none>
-    Installation Asset Serial Number Photos
-    </li>
-    <li>
-    Decom Asset Serail Number Photos
-    </li>
-    <li>
-    Antennas and Radio Prepwork
-    </li>
-    <li>
-    Antennas Installation
-    </li>
+<ul id="task-list">
+    
 </ul>
 
 

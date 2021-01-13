@@ -1,5 +1,9 @@
 export default () => `
-<div class="lform">
+<h2>Please Enter Your User Account Login</h2>
+<br>
+<br>
+<br>
+<div class="body">
       <form id="lform" class="lform">
         <h2>Log in</h2>
         <div class="form-control">
@@ -12,6 +16,7 @@ export default () => `
           <input type="password" id="password" placeholder="Enter password" />
           <small>Error message</small>
         </div>
+        <input type="submit" value="Login" class="btn">
       </form>
     </div>
 `;

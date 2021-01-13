@@ -4,7 +4,7 @@ export default () => `
 <br>
 <br>
 <div class="dropdown">
-	<a href="/ContactForm" data-navigo class="dropbtn"> <i class="fas fa-user-plus"></i></a>
+	<a href="/ContactForm" data-navigo class="btn"> <i class="fas fa-user-plus"></i></a>
 </div>
 <br>
 <br>

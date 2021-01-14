@@ -7,6 +7,9 @@ const { createUser, login } = require("../controllers/user");
 const app = express();
 app.use(bodyParser.json());
 
+// Individual route will use for each database uses 
+
+
 //user routes
 app.post("/users", createUser);
 app.post("/users/login", login)

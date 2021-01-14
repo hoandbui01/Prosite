@@ -325,6 +325,7 @@ width: 100%;
     display: flex;
     justify-content: center;
     color: red;
+    margin-bottom: 25px;
 }
 
 #project-task-container{
@@ -422,4 +423,22 @@ a.project-btn:hover{
 .detail-info{
     display: none;
     text-align: center;
+}
+
+.detail-page{
+    max-width: 1200px;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.project-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-title h2{
+    margin-right: 10px;
+    text-transform: capitalize;
 }

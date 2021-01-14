@@ -6,7 +6,11 @@ export default () => `
 
 
 <div class="detail-page">
-	<h2 id="projectCode"></h2>
+	<div class="project-title">
+		<h2 id="projectCode"></h2>
+		<h2 id="projectSiteName"></h2>
+		<h2 id="projectNameTop"></h2>
+	</div>
 	<div class="project-btn-wrap">
 		<button class="project-btn" id="project-details-btn">Project Details</button>
 		<button class="project-btn" id="project-task">Project Tasks</button>
@@ -40,7 +44,7 @@ export default () => `
 			</div>
 		</form>
 
-		<small>Left click to toggle completed. <br> Right click to delete task</small>
+		
 		<ol id="task-list">
 			
 		</ol>

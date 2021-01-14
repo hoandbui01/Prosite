@@ -4,6 +4,7 @@ import Navigo from "navigo";
 import { upperFirst } from "lodash";
 
 const apiUrl = "";
+// http://localhost:4040
 
 const router = new Navigo(window.location.origin);
 router
@@ -26,7 +27,7 @@ function render(st = state.Home) {
 
 // Database
 
-
+// Create New Project Button on ProjectFormCreate view
 function createProject(event) {
   event.preventDefault();
 
@@ -79,6 +80,8 @@ function createProject(event) {
     .catch((err) => console.log("error occured", err));
 }
 
+
+// get all the project and load it to Project List view
 function getProjectList() {
   fetch(`${apiUrl}/api/projects`)
     .then((res) => res.json())
@@ -89,6 +92,8 @@ function getProjectList() {
     });
 }
 
+
+// Standalone function to create data for all project list using loop 
 function loadProjectList(data) {
   data.forEach((d) => {
     const {
@@ -120,6 +125,7 @@ function loadProjectList(data) {
   });
 }
 
+// Using the id from the local storage 
 function getSingleProjectDetails() {
   const clickedList = localStorage.getItem("clickedList");
   const detailInfo = document.querySelector(".detail-info");
@@ -135,6 +141,10 @@ function getSingleProjectDetails() {
         console.log("data", response);
         document.getElementById("projectCode").innerHTML =
           response.data.siteCode;
+          document.getElementById("projectSiteName").innerHTML =
+          response.data.siteName;
+          document.getElementById("projectNameTop").innerHTML =
+          response.data.projectName;
         loadSingleProjectDetails(response.data);
       });
   } else {
@@ -143,6 +153,8 @@ function getSingleProjectDetails() {
   }
 }
 
+
+// Load the data inside the Project Detail Page
 function loadSingleProjectDetails(data) {
   Object.keys(data).forEach((d) => {
     let row = document.createElement("tr");
@@ -159,7 +171,9 @@ function loadSingleProjectDetails(data) {
   });
 }
 
-// Delete the record //
+
+
+// Delete the tasks //
 const deleteTask = (id) => {
   fetch(`${apiUrl}/api/tasks/${id}`, {
     method: "DELETE",
@@ -258,8 +272,7 @@ function getAllTasks() {
     });
 }
 
-// Populate field on the Project Detail Update Page
-
+// Populate field on the Project Detail on the Update Current Page
 function getUpdateProjectDetail() {
   const clickedList = localStorage.getItem("clickedList");
 
@@ -271,6 +284,7 @@ function getUpdateProjectDetail() {
     });
 }
 
+// Get front end field and values to connect with backend to populate field values from the database to use on getUpdateProjectDetail function
 function populateUpdateFields(data) {
   const {
     siteCode,
@@ -307,6 +321,7 @@ function populateUpdateFields(data) {
   document.getElementById("note").value = note;
 }
 
+// Once the Update Project button selected inside the ProjectFormUpdate, then it will update the project detail page
 function updateSingleProject(event) {
   event.preventDefault();
 
@@ -362,6 +377,8 @@ function updateSingleProject(event) {
     .catch((err) => console.log("error occured", err));
 }
 
+
+// Register user to the database  if success then load to Project List Page
 function registerUser(event) {
   event.preventDefault();
   const email = document.getElementById("email").value;
@@ -392,7 +409,7 @@ function registerUser(event) {
   }
 }
 
-// Login Function to validate user information in the database
+// Login Function to validate user information in the database if success then load the Project List view
 function login(event) {
   event.preventDefault();
 
@@ -420,6 +437,8 @@ function login(event) {
     });
 }
 
+
+// function to run code on the navigation link
 function addEventListenersByView(st) {
   if (st.view === "ProjectFormCreate") {
     document

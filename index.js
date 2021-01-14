@@ -3,6 +3,8 @@ import * as state from "./store";
 import Navigo from "navigo";
 import { upperFirst } from "lodash";
 
+const apiUrl = "";
+
 const router = new Navigo(window.location.origin);
 router
   .on({
@@ -24,8 +26,6 @@ function render(st = state.Home) {
 
 // Database
 
-const apiUrl = ""
-// http://localhost:4040
 
 function createProject(event) {
   event.preventDefault();
@@ -431,7 +431,7 @@ function addEventListenersByView(st) {
     getProjectList();
   }
 
-  if (st.view === "t ") {
+  if (st.view === "ProjectDetail") {
     getSingleProjectDetails();
     getAllTasks();
 

@@ -24,6 +24,9 @@ function render(st = state.Home) {
 
 // Database
 
+const apiUrl = ""
+// http://localhost:4040
+
 function createProject(event) {
   event.preventDefault();
 
@@ -43,7 +46,7 @@ function createProject(event) {
   const completeDate = document.getElementById("completeDate").value;
   const note = document.getElementById("note").value;
 
-  fetch("/api/projects", {
+  fetch(`${apiUrl}/api/projects`, {
     method: "POST",
     headers: {
       "content-type": "application/json",
@@ -77,7 +80,7 @@ function createProject(event) {
 }
 
 function getProjectList() {
-  fetch("/api/projects")
+  fetch(`${apiUrl}/api/projects`)
     .then((res) => res.json())
     .then((response) => {
       if (response.success) {
@@ -126,7 +129,7 @@ function getSingleProjectDetails() {
     detailInfo.style.display = "none";
     detailPage.style.display = "block";
 
-    fetch(`/api/projects/${clickedList}`)
+    fetch(`${apiUrl}/api/projects/${clickedList}`)
       .then((res) => res.json())
       .then((response) => {
         console.log("data", response);
@@ -158,7 +161,7 @@ function loadSingleProjectDetails(data) {
 
 // Delete the record //
 const deleteTask = (id) => {
-  fetch(`/api/tasks/${id}`, {
+  fetch(`${apiUrl}/api/tasks/${id}`, {
     method: "DELETE",
     headers: {
       "content-type": "application/json",
@@ -178,7 +181,7 @@ function addTask(event) {
   event.preventDefault();
   const clickedList = localStorage.getItem("clickedList");
 
-  fetch(`/api/tasks`, {
+  fetch(`${apiUrl}/api/tasks`, {
     method: "POST",
     headers: {
       "content-type": "application/json",
@@ -201,7 +204,7 @@ function addTask(event) {
 function getAllTasks() {
   const clickedList = localStorage.getItem("clickedList");
 
-  fetch(`/api/tasks/${clickedList}`)
+  fetch(`${apiUrl}/api/tasks/${clickedList}`)
     .then((res) => res.json())
     .then((response) => {
       if (response.success) {
@@ -260,7 +263,7 @@ function getAllTasks() {
 function getUpdateProjectDetail() {
   const clickedList = localStorage.getItem("clickedList");
 
-  fetch(`/api/projects/${clickedList}`)
+  fetch(`${apiUrl}/api/projects/${clickedList}`)
     .then((res) => res.json())
     .then((response) => {
       console.log("data", response);
@@ -325,7 +328,7 @@ function updateSingleProject(event) {
 
   const clickedList = localStorage.getItem("clickedList");
 
-  fetch(`/api/projects/${clickedList}`, {
+  fetch(`${apiUrl}/api/projects/${clickedList}`, {
     method: "PUT",
     headers: {
       "content-type": "application/json",
@@ -366,7 +369,7 @@ function registerUser(event) {
   const confirmPassword = document.getElementById("confirmPassword").value;
 
   if (password === confirmPassword) {
-    fetch("/api/users", {
+    fetch(`${apiUrl}/api/users`, {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -396,7 +399,7 @@ function login(event) {
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
 
-  fetch("/api/users/login", {
+  fetch(`${apiUrl}/api/users/login`, {
     method: "POST",
     headers: {
       "content-type": "application/json",
@@ -428,7 +431,7 @@ function addEventListenersByView(st) {
     getProjectList();
   }
 
-  if (st.view === "ProjectDetail") {
+  if (st.view === "t ") {
     getSingleProjectDetails();
     getAllTasks();
 
